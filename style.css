@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7ff;
+    color: #222;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 8%;
+    background: #171b3a;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background: #272c68;
+    color: white;
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+header span {
+    color: #ffd166;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background: #ffd166;
+    cursor: pointer;
+}
+
+section {
+    text-align: center;
+    padding: 45px 10%;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skills div {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #171b3a;
+    color: white;
+}
